@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+
+.instalogo{
+    height: 50px;
+    width: 100px;
+}
+.download-icon{
+    height: 20px;
+    width: 50px;
+}
+.insta-container{
+    height: 50%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-columns{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
