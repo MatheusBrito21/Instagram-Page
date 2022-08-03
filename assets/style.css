@@ -1,38 +1,134 @@
 body{
-    margin: 0;
+    margin: auto;
     background-color: #f7f7f7;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
 }
-
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(47, 169, 235) ;
+}
+.phoneimg{
+   height: 95%;
+   width: 70%;
+  margin-left: 50%;
+}
 
 .instalogo{
-    height: 50px;
-    width: 100px;
+    height: 100px;
+    width: 60%;
+    margin: 15px;
 }
-.download-icon{
-    height: 20px;
-    width: 50px;
+.download-icon-appstore{
+    height: 70px;
+    width: 145px;
 }
+.download-icon-playstore{
+    height: 95px;
+    width: 145px;
+}
+.facelogo{
+    width: 75%;
+    height: 65px;
+    margin: 5px;
+}
+
 .insta-container{
-    height: 50%;
+    height: 720px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 15px;
+    margin-left: 0;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.main-columns{
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    height: 90%;
+    width: 500px;
+    margin: 5px;
+}
+
+.column-box{
     border: 1px solid;
+    border-color: darkgrey;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    height: 90%;
+    width: 70%;
+}
+
+.nao-conta-box{
+    height: 110px;
+}
+
+.obtenha{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    height: 20px;
+    border: none;
+}
+
+.input-item{
+    margin: 5px;
+    width: 75%;
+    height: 30px;
+}
+
+.botao-login{
+    background-color: rgb(47, 169, 235);
+    border-radius: 5px;
+    margin: 15px;
+    width: 75%;
+    height: 35px;
+    color: #f7f7f7;
+    border: none;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+    transition-delay: 0.05s;
+}
+.botao-login:hover{
+    background-color: rgb(1, 133, 204)
+}
+
+.downloads{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 5px;
+    height: 20%;
+    width: 100%;
 }
 
-.main-columns{
-    border: 1px solid;
+h4{color:darkgray;}
+
+.footer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    height: 5px;
+    width: 100%;
     align-items: center;
+    margin-top: 0;
+    margin-bottom: 35px;
 }
 
-.column-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
+.item{
+    margin: 5px;
+    color: rgb(105, 105, 105);
 }
